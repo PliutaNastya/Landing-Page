@@ -8,6 +8,9 @@ function sendEmailTelegram(event) {
     const size = document.getElementById('size').value;
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
+    const region = document.getElementById('region').value;
+    const city = document.getElementById('city').value;
+    const post = document.getElementById('post').value;
 
     // Создаем сообщение
     const message = `
@@ -15,6 +18,9 @@ function sendEmailTelegram(event) {
     Телефон: ${phone}
     Колір: ${color}
     Розмір: ${size}
+    Область: ${region}
+    Населений пункт: ${city}
+    Номер Нової Пошти: ${post}
     `;
 
     // Ваш токен бота
@@ -42,6 +48,13 @@ function sendEmailTelegram(event) {
     .then(response => response.json())
     .then(result => {
         if (result.ok) {
+            document.getElementById('color').value = '';
+            document.getElementById('size').value = '';
+            document.getElementById('name').value = '';
+            document.getElementById('phone').value = '';
+            document.getElementById('region').value = '';
+            document.getElementById('city').value = '';
+            document.getElementById('post').value = '';
             document.querySelector('.form__send-result').textContent = 'Повідомлення успішно відправлено!';
         } else {
             document.querySelector('.form__send-result').textContent = 'Сталася помилка при відправці повідомлення.';
