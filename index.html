@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240706202204">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".hero" href="#" class="menu__link">Головна</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".about-us" href="#" class="menu__link">Переваги</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".products" href="#" class="menu__link">Опис</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".gallery" href="#" class="menu__link">Галерея</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture></a>
+				<div data-da=".menu__body, 767.98" class="header__action action-header">
+					<a href="#" class="action-header__link" data-goto=".sizes">Розмірна сітка</a>
+					<a href="#" class="action-header__link" data-goto=".reviews">Відгуки</a>
+					<button class="action-header__button button button--border"><span>Замовити</span></button>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section data-watch="navigator" class="hero">
+				<div class="hero__container">
+					<div class="hero__body">
+						<div class="hero__content">
+							<h1 class="hero__title">Елегантний костюм</h1>
+							<a href="#" class="hero__button button button--border"><span>Замовити</span></a>
+						</div>
+					</div>
+					<div class="hero__slider swiper">
+						<div class="hero__wrapper swiper-wrapper">
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/01.webp" type="image/webp"><img src="img/hero/photos/01.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/02.webp" type="image/webp"><img src="img/hero/photos/02.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/03.webp" type="image/webp"><img src="img/hero/photos/03.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/04.webp" type="image/webp"><img src="img/hero/photos/04.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero__controll">
+						<button type="button" class="hero__arrow hero__arrow--left _icon-slider-arrow"></button>
+						<button type="button" class="hero__arrow hero__arrow--right _icon-slider-arrow"></button>
+					</div>
+				</div>
+				<a href="#" data-goto=".hero" class="up _icon-slider-arrow"></a>
+			</section>
+			<section class="price">
+				<div class="price__container">
+					<h2 class="block-header__title price__title">Доставка новою поштою 3-5 днів</h2>
+					<div class="price__block block-price">
+						<div class="block-price__item block-price__old">
+							<div class="block-price__old--1">Стара ціна</div>
+							<div class="block-price__old--2">980 грн</div>
+						</div>
+						<div class="block-price__item  block-price__new">
+							<div class="block-price__new--1">Нова ціна</div>
+							<div class="block-price__new--2">490 грн</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-prlx-parent data-watch="navigator" class="about-us">
+				<div class="about-us__container">
+					<div class="about-us__body">
+						<div class="about-us__content">
+							<div class="about-us__block-header block-header">
+								<h2 class="block-header__title">Переваги</h2>
+								<div class="about-us__services services-about-us">
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/about/icons/01.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">Натуральна батистова тканина</div>
+									</div>
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/about/icons/02.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">Висока посадка штанів</div>
+									</div>
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/about/icons/03.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">Стильний і комфортний крій</div>
+									</div>
+								</div>
+								<a href="#" class="block-header__button button"><span>Замовити</span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section data-watch="navigator" class="products">
+				<div class="products__container">
+					<div class="products__block-header block-header block-header--center">
+						<h2 class="block-header__title">Опис</h2>
+						<div class="block-header__text">
+							<p>Цей розкішний костюм, що складається з рубашки та штанів, стане ідеальним вибором для прогулянок і повсякденного носіння. Тканина не просвічується, легка та приємна до тіла, що робить костюм незамінним у літню спеку. </p>
+						</div>
+					</div>
+					<div class="products__items">
+						<article data-watch class="products__item item-product">
+							<div class="item-product__header">
+								<div class="item-product__image-ibg-contain">
+									<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="item-product__body">
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">В чорному кольорі</a>
+								</h4>
+								<div class="item-product__price">490 грн</div>
+							</div>
+						</article>
+						<article data-watch class="products__item item-product">
+							<div class="item-product__header">
+								<div class="item-product__image-ibg-contain">
+									<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="item-product__body">
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">В молочному кольорі</a>
+								</h4>
+								<div class="item-product__price">490 грн</div>
+							</div>
+						</article>
+						<article data-watch class="products__item item-product">
+							<div class="item-product__header">
+								<div class="item-product__image-ibg-contain">
+									<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="item-product__body">
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">В зеленому кольорі</a>
+								</h4>
+								<div class="item-product__price">490 грн</div>
+							</div>
+						</article>
+						<article data-watch class="products__item item-product">
+							<div class="item-product__header">
+								<div class="item-product__image-ibg-contain">
+									<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="item-product__body">
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">В малиновому кольорі</a>
+								</h4>
+								<div class="item-product__price">490 грн</div>
+							</div>
+						</article>
+					</div>
+					<div class="products__block-header block-header block-header--center">
+						<div class="block-header__text">
+							<p>Рубашка має спущений рукав та розрізи по боках, додаючи витонченості образу. Штани прямого крою з високою посадкою та на резинці забезпечують максимальний комфорт протягом усього дня. </p>
+						</div>
+						<a href="#" class="products__button button"><span>Замовити</span></a>
+					</div>
+			</section>
+			<section class="price">
+				<div class="price__container">
+					<h2 class="block-header__title price__title">Доставка новою поштою 3-5 днів</h2>
+					<div class="price__block block-price">
+						<div class="block-price__item block-price__old">
+							<div class="block-price__old--1">Стара ціна</div>
+							<div class="block-price__old--2">980 грн</div>
+						</div>
+						<div class="block-price__item  block-price__new">
+							<div class="block-price__new--1">Нова ціна</div>
+							<div class="block-price__new--2">490 грн</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div data-prlx-parent data-watch="navigator" data-watch class="gallery">
+				<div data-gallery class="gallery__container">
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/01.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/01.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/02.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/02.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/03.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/03.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/04.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/04.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/05.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/05.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/06.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/06.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/07.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/07.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/08.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/08.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/09.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/09.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/09.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/10.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/10.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/11.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/11.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+					<div data-prlx class="gallery__item">
+						<a href="img/gallery/12.jpg" class="gallery__image">
+							<picture><source data-srcset="img/gallery/12.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery/12.jpg" alt="Image"></picture>
+						</a>
+						<a href="#" class="gallery__link _icon-slider-arrow"><span>Замовити в цьому кольорі</span></a>
+					</div>
+				</div>
+			</div>
+			<section data-watch="navigator" class="sizes">
+				<div class="sizes__container">
+					<div class="sizes__body">
+						<div class="sizes__content">
+							<div class="sizes__block-header block-header">
+								<h2 class="block-header__title">Розмірна сітка</h2>
+								<div class="sizes__image">
+									<picture><source srcset="img/size.webp" type="image/webp"><img src="img/size.png" alt="Image"></picture>
+								</div>
+								<a href="#" class="block-header__button button"><span>Замовити</span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section data-watch data-watch="navigator" class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__icon">
+									<img src="img/icons/review.svg" alt="Image">
+								</div>
+								<div class="reviews__item">
+									<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__icon">
+									<img src="img/icons/review.svg" alt="Image">
+								</div>
+								<div class="reviews__item">
+									<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__icon">
+									<img src="img/icons/review.svg" alt="Image">
+								</div>
+								<div class="reviews__item">
+									<picture><source srcset="img/reviews/03.webp" type="image/webp"><img src="img/reviews/03.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__icon">
+									<img src="img/icons/review.svg" alt="Image">
+								</div>
+								<div class="reviews__item">
+									<picture><source srcset="img/reviews/04.webp" type="image/webp"><img src="img/reviews/04.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__icon">
+									<img src="img/icons/review.svg" alt="Image">
+								</div>
+								<div class="reviews__item">
+									<picture><source srcset="img/reviews/05.webp" type="image/webp"><img src="img/reviews/05.jpg" alt="Image"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="reviews__arrows">
+							<button class="reviews__arrow reviews__arrow--prev _icon-slider-arrow"></button>
+							<button class="reviews__arrow reviews__arrow--next _icon-slider-arrow"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-prlx-parent data-watch="navigator" class="about-us">
+				<div class="about-us__container">
+					<div class="about-us__body">
+						<div class="about-us__content">
+							<div class="about-us__block-header block-header">
+								<h2 class="block-header__title">Як зробити замовлення?</h2>
+								<div class="about-us__services services-about-us">
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/icons/01.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">Залишаєте заявку</div>
+										<p>Після того, як ви залишите заявку, наш менеджер зв'яжеться з вами, щоб уточнити всі деталі вашого замовлення.</p>
+									</div>
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/icons/02.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">Доставка новою поштою</div>
+										<p>Замовлення доставляються за допомогою служби "Нова Пошта". Надійна та швидка служба, яка забезпечить безпечну доставку вашого замовлення</p>
+									</div>
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/icons/03.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">Оплата при отриманні</div>
+										<p>Ми пропонуємо зручну систему оплати, за якою ви можете оплатити ваше замовлення лише після його отримання.</p>
+									</div>
+									<div class="services-about-us__item">
+										<div class="services-about-us__icon">
+											<img src="img/icons/04.svg" alt="Image">
+										</div>
+										<div class="services-about-us__label">100% обмін</div>
+										<p>Якщо одяг не підійде Вам з якихось причин, Ви зможете здійснити обмін або повернення</p>
+									</div>
+								</div>
+								<a href="#" class="block-header__button button"><span>Замовити</span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section data-watch="navigator" class="hero">
+				<div class="hero__container">
+					<div class="hero__body">
+						<div class="hero__content">
+							<h2 class="hero__title">Елегантний костюм</h2>
+							<a href="#" class="hero__button button button--border"><span>Замовити</span></a>
+						</div>
+					</div>
+					<div class="hero__slider swiper">
+						<div class="hero__wrapper swiper-wrapper">
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/01.webp" type="image/webp"><img src="img/hero/photos/01.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/02.webp" type="image/webp"><img src="img/hero/photos/02.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/03.webp" type="image/webp"><img src="img/hero/photos/03.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide slide-hero swiper-slide">
+								<div data-swiper-parallax-x="40%" data-swiper-parallax-scale="0.2" class="slide-hero__content">
+									<div class="slide-hero__body">
+										<picture><source srcset="img/hero/photos/04.webp" type="image/webp"><img src="img/hero/photos/04.jpg" class="slide-hero__image" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero__controll">
+						<button type="button" class="hero__arrow hero__arrow--left _icon-slider-arrow"></button>
+						<button type="button" class="hero__arrow hero__arrow--right _icon-slider-arrow"></button>
+					</div>
+				</div>
+				<a href="#" data-goto=".hero" class="up _icon-slider-arrow"></a>
+			</section>
+			<section class="price">
+				<div class="price__container">
+					<h2 class="block-header__title price__title">Доставка новою поштою 3-5 днів</h2>
+					<div class="price__block block-price">
+						<div class="block-price__item block-price__old">
+							<div class="block-price__old--1">Стара ціна</div>
+							<div class="block-price__old--2">980 грн</div>
+						</div>
+						<div class="block-price__item  block-price__new">
+							<div class="block-price__new--1">Нова ціна</div>
+							<div class="block-price__new--2">490 грн</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="form-1">
+				<div class="form__container">
+					<h2 class="block-header__title">Заповніть форму:</h2>
+					<form class="form" onsubmit="sendEmailTelegram(event)">
+						<label for="color" class="form-item__label">Вкажіть колір:</label>
+						<input type="text" id="color" autocomplete="off" maxlength="50" required class="form-item__input">
+
+						<label for="size" class="form-item__label">Вкажіть розмір:</label>
+						<input type="text" id="size" name="size" autocomplete="off" maxlength="50" required class="form-item__input">
+
+						<label for="name" class="form-item__label">Ім'я та Прізвище:</label>
+						<input type="text" id="name" name="name" autocomplete="off" maxlength="50" required class="form-item__input">
+
+						<label for="phone" class="form-item__label">Телефон:</label>
+						<input type="tel" id="phone" name="phone" autocomplete="off" maxlength="15" required class="form-item__input">
+
+						<div class="form__submit-block">
+							<div class="form__submit-button">
+								<button type="submit">Відправити</button>
+							</div>
+						</div>
+						<div class="form__send-result"></div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<ul class="footer__items">
+						<li><a href="">Політика конфіденційності</a></li>
+						<li><a href="tel:+0123456789">+380685771519</a></li>
+					</ul>
+				</div>
+				<div class="footer__copy">
+					© Всі права захищені - 2024
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240706202204"></script>
+	<script src="./js/telegram.js"></script>
+</body>
+
+</html>
