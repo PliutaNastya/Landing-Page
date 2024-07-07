@@ -503,7 +503,6 @@ textarea.input {
 
 .hero {
   position: relative;
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -521,7 +520,7 @@ textarea.input {
   gap: 1.875rem;
   -ms-grid-columns: 1fr 72%;
   grid-template-columns: 1fr 72%;
-  padding-bottom: 3.125rem;
+  padding-bottom: 1.875rem;
   position: relative;
   z-index: 2;
   -webkit-box-flex: 1;
@@ -542,8 +541,7 @@ textarea.input {
 
 .hero__slider.swiper {
   position: relative;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 1.875rem;
   z-index: 2;
 }
 
@@ -1912,11 +1910,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .about-us {
-    padding-top: 11.875rem;
+    padding-top: 2.8125rem;
   }
 
   .about-us {
-    padding-bottom: 5rem;
+    padding-bottom: 2.8125rem;
   }
 
   .about-us__body {
@@ -1928,11 +1926,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .products {
-    padding-top: 5.625rem;
+    padding-top: 2.8125rem;
   }
 
   .products {
-    padding-bottom: 10.625rem;
+    padding-bottom: 2.8125rem;
   }
 
   .products__block-header {
@@ -1949,6 +1947,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .item-product__header:not(:last-child) {
     margin-bottom: 2.4375rem;
+  }
+
+  .gallery {
+    padding-top: 4.375rem;
+  }
+
+  .gallery {
+    padding-bottom: 4.375rem;
   }
 
   .gallery__container {
@@ -1977,7 +1983,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .reviews {
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
   }
 
   .reviews__slide {
@@ -2005,11 +2011,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .form-1 {
-    padding-top: 9.375rem;
+    padding-top: 5.625rem;
   }
 
   .form-1 {
-    padding-bottom: 9.375rem;
+    padding-bottom: 5.625rem;
   }
 
   .block-header__title {
@@ -2081,7 +2087,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .hero__container {
-    padding-top: 5rem;
+    padding-top: 3.125rem;
   }
 
   .hero__title {
@@ -2130,11 +2136,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .about-us {
-    padding-top: 1.875rem;
+    padding-top: 0.9375rem;
   }
 
   .about-us {
-    padding-bottom: 1.875rem;
+    padding-bottom: 0.9375rem;
   }
 
   .about-us__body {
@@ -2146,11 +2152,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .products {
-    padding-top: 1.875rem;
+    padding-top: 0.9375rem;
   }
 
   .products {
-    padding-bottom: 1.875rem;
+    padding-bottom: 0.9375rem;
   }
 
   .products__block-header {
@@ -2167,6 +2173,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .item-product__header:not(:last-child) {
     margin-bottom: 0.9375rem;
+  }
+
+  .gallery {
+    padding-top: 2.5rem;
+  }
+
+  .gallery {
+    padding-bottom: 1.875rem;
   }
 
   .gallery__container {
@@ -2210,11 +2224,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .form-1 {
-    padding-top: 5rem;
+    padding-top: 1.875rem;
   }
 
   .form-1 {
-    padding-bottom: 5rem;
+    padding-bottom: 1.875rem;
   }
 
   .block-header__title {
@@ -2589,15 +2603,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-top: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem )) {
+@supports (padding-top: clamp( 3.125rem , 1.5649375975rem  +  7.8003120125vw , 9.375rem )) {
     .hero__container {
-      padding-top: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem );
+      padding-top: clamp( 3.125rem , 1.5649375975rem  +  7.8003120125vw , 9.375rem );
     }
 }
 
-@supports not (padding-top: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem )) {
+@supports not (padding-top: clamp( 3.125rem , 1.5649375975rem  +  7.8003120125vw , 9.375rem )) {
     .hero__container {
-      padding-top: calc(5rem + 4.375 * (100vw - 20rem) / 80.125);
+      padding-top: calc(3.125rem + 6.25 * (100vw - 20rem) / 80.125);
     }
 }
 
@@ -2735,27 +2749,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-top: clamp( 1.875rem , -0.621099844rem  +  12.48049922vw , 11.875rem )) {
+@supports (padding-top: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .about-us {
-      padding-top: clamp( 1.875rem , -0.621099844rem  +  12.48049922vw , 11.875rem );
+      padding-top: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem );
     }
 }
 
-@supports not (padding-top: clamp( 1.875rem , -0.621099844rem  +  12.48049922vw , 11.875rem )) {
+@supports not (padding-top: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .about-us {
-      padding-top: calc(1.875rem + 10 * (100vw - 20rem) / 80.125);
+      padding-top: calc(0.9375rem + 1.875 * (100vw - 20rem) / 80.125);
     }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , 1.0949687988rem  +  3.9001560062vw , 5rem )) {
+@supports (padding-bottom: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .about-us {
-      padding-bottom: clamp( 1.875rem , 1.0949687988rem  +  3.9001560062vw , 5rem );
+      padding-bottom: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , 1.0949687988rem  +  3.9001560062vw , 5rem )) {
+@supports not (padding-bottom: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .about-us {
-      padding-bottom: calc(1.875rem + 3.125 * (100vw - 20rem) / 80.125);
+      padding-bottom: calc(0.9375rem + 1.875 * (100vw - 20rem) / 80.125);
     }
 }
 
@@ -2783,27 +2797,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-top: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem )) {
+@supports (padding-top: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .products {
-      padding-top: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem );
+      padding-top: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem );
     }
 }
 
-@supports not (padding-top: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem )) {
+@supports not (padding-top: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .products {
-      padding-top: calc(1.875rem + 3.75 * (100vw - 20rem) / 80.125);
+      padding-top: calc(0.9375rem + 1.875 * (100vw - 20rem) / 80.125);
     }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , -0.3090873635rem  +  10.9204368175vw , 10.625rem )) {
+@supports (padding-bottom: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .products {
-      padding-bottom: clamp( 1.875rem , -0.3090873635rem  +  10.9204368175vw , 10.625rem );
+      padding-bottom: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , -0.3090873635rem  +  10.9204368175vw , 10.625rem )) {
+@supports not (padding-bottom: clamp( 0.9375rem , 0.4694812793rem  +  2.3400936037vw , 2.8125rem )) {
     .products {
-      padding-bottom: calc(1.875rem + 8.75 * (100vw - 20rem) / 80.125);
+      padding-bottom: calc(0.9375rem + 1.875 * (100vw - 20rem) / 80.125);
     }
 }
 
@@ -2852,6 +2866,30 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @supports not (margin-bottom: clamp( 0.9375rem , 0.5630850234rem  +  1.872074883vw , 2.4375rem )) {
     .item-product__header:not(:last-child) {
       margin-bottom: calc(0.9375rem + 1.5 * (100vw - 20rem) / 80.125);
+    }
+}
+
+@supports (padding-top: clamp( 2.5rem , 2.0319812793rem  +  2.3400936037vw , 4.375rem )) {
+    .gallery {
+      padding-top: clamp( 2.5rem , 2.0319812793rem  +  2.3400936037vw , 4.375rem );
+    }
+}
+
+@supports not (padding-top: clamp( 2.5rem , 2.0319812793rem  +  2.3400936037vw , 4.375rem )) {
+    .gallery {
+      padding-top: calc(2.5rem + 1.875 * (100vw - 20rem) / 80.125);
+    }
+}
+
+@supports (padding-bottom: clamp( 1.875rem , 1.250975039rem  +  3.120124805vw , 4.375rem )) {
+    .gallery {
+      padding-bottom: clamp( 1.875rem , 1.250975039rem  +  3.120124805vw , 4.375rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 1.875rem , 1.250975039rem  +  3.120124805vw , 4.375rem )) {
+    .gallery {
+      padding-bottom: calc(1.875rem + 2.5 * (100vw - 20rem) / 80.125);
     }
 }
 
@@ -2915,15 +2953,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , -0.1530811232rem  +  10.1404056162vw , 10rem )) {
+@supports (padding-bottom: clamp( 1.875rem , 1.0949687988rem  +  3.9001560062vw , 5rem )) {
     .reviews {
-      padding-bottom: clamp( 1.875rem , -0.1530811232rem  +  10.1404056162vw , 10rem );
+      padding-bottom: clamp( 1.875rem , 1.0949687988rem  +  3.9001560062vw , 5rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , -0.1530811232rem  +  10.1404056162vw , 10rem )) {
+@supports not (padding-bottom: clamp( 1.875rem , 1.0949687988rem  +  3.9001560062vw , 5rem )) {
     .reviews {
-      padding-bottom: calc(1.875rem + 8.125 * (100vw - 20rem) / 80.125);
+      padding-bottom: calc(1.875rem + 3.125 * (100vw - 20rem) / 80.125);
     }
 }
 
@@ -2975,27 +3013,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-top: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem )) {
+@supports (padding-top: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem )) {
     .form-1 {
-      padding-top: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem );
+      padding-top: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem );
     }
 }
 
-@supports not (padding-top: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem )) {
+@supports not (padding-top: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem )) {
     .form-1 {
-      padding-top: calc(5rem + 4.375 * (100vw - 20rem) / 80.125);
+      padding-top: calc(1.875rem + 3.75 * (100vw - 20rem) / 80.125);
     }
 }
 
-@supports (padding-bottom: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem )) {
+@supports (padding-bottom: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem )) {
     .form-1 {
-      padding-bottom: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem );
+      padding-bottom: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 5rem , 3.9079563183rem  +  5.4602184087vw , 9.375rem )) {
+@supports not (padding-bottom: clamp( 1.875rem , 0.9389625585rem  +  4.6801872075vw , 5.625rem )) {
     .form-1 {
-      padding-bottom: calc(5rem + 4.375 * (100vw - 20rem) / 80.125);
+      padding-bottom: calc(1.875rem + 3.75 * (100vw - 20rem) / 80.125);
     }
 }
 
