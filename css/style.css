@@ -501,6 +501,69 @@ textarea.input {
   line-height: 120%;
 }
 
+.modal {
+  display: none;
+  /* Скрыть по умолчанию */
+  position: fixed;
+  /* Оставаться на месте */
+  z-index: 1;
+  /* Слой поверх всего */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Полная ширина */
+  height: 100%;
+  /* Полная высота */
+  overflow: auto;
+  /* Включить прокрутку если нужно */
+  background-color: rgb(0, 0, 0);
+  /* Черный с прозрачностью */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Черный с прозрачностью */
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  /* Центрирование */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Ширина */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.modal-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-content p {
+  line-height: 150%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .hero {
   position: relative;
   display: -webkit-box;
@@ -1049,6 +1112,11 @@ textarea.input {
   padding: 15px;
   border: 0.0625rem solid #52666D;
   border-radius: 15px;
+}
+
+.form-item__select {
+  font-family: "Montserrat";
+  font-size: 1rem;
 }
 
 .form__submit-block {

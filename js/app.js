@@ -6046,6 +6046,19 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         const da = new DynamicAdapt("max");
         da.init();
+        var modal = document.getElementById("privacyPolicyModal");
+        var btn = document.getElementById("privacyPolicyLink");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function(event) {
+            event.preventDefault();
+            modal.style.display = "block";
+        };
+        span.onclick = function() {
+            modal.style.display = "none";
+        };
+        window.onclick = function(event) {
+            if (event.target == modal) modal.style.display = "none";
+        };
         window["FLS"] = true;
         isWebp();
         menuInit();
